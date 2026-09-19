@@ -36,6 +36,8 @@ Everything is on the screen. Except...
 * Charging indicator.
 2. Invisible shortcuts (complications) at certain places.
 3. Some more colours (check in watchface settings).
+4. A new `12/24H Format` complication is placed over the AM/PM area. Tapping it opens the watch's system Settings so the 12-hour or 24-hour format can be changed; the face's existing hour conditional lines update the clock immediately afterward.
+5. The left-side `Long Text Complication` under the clock keeps media-controller titles left-aligned and non-ellipsized, so long values remain available to the Wear OS renderer for rolling/clipped display on both SDK 30 and SDK 34 rather than being replaced by an ellipsis.
 
 ![Colours](misc/colours.png)
 
